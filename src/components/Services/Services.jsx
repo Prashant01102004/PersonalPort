@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Resume_Prashant.pdf';
+import Resume from './Prashant_m.pdf';
 
 const Services = () => {
   // context
@@ -45,9 +45,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            main={"Programming"}
-            detail={`c++, Codeforces-Max Rating 1504(Specialist), 
-            GFG-150+ Problems Solved, LeetCode- 150+ Problems Solved, Solved 500+ DSA Problems`}
+            main={"Coding Profile"}
+            detail={`C++, Specialist at codeforces, 
+            Solved 700+ coding problems`}
           />
         </motion.div>
         {/* second card */}
@@ -57,7 +57,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            main={"Development"}
+            main={"Dev Skills"}
             detail={`Html, Css, JavaScript, React, Nodejs, Express`}
           />
         </motion.div>
@@ -69,7 +69,7 @@ const Services = () => {
         >
           <Card
             main={"Coursework"}
-            detail={`OS, DBMS, DSA`}
+            detail={`Operating System, Database Management System, Data Structure and Algorithms,Computer Networks`}
           />
         </motion.div>
         <div

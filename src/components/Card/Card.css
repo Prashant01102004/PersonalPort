@@ -24,7 +24,7 @@
   text-align: left;
   justify-content: flex-start;
   width: 100%;
-  color: var(--gray);
+  color:rgb(0, 0, 0) ;
 }
 
 @media screen and (max-width: 480px){
